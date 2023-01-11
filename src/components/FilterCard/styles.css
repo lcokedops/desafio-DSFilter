@@ -1,0 +1,22 @@
+.card-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--dsc-color-border-secondary);
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.card-input::placeholder {
+    font-size: 16px;
+    color: var(--dsc-color-font-secondary);
+}
+
+.button {
+    font-size: 16px;
+    background-color: var(--dsc-color-bg-tertiary);
+    color: var(--dsc-color-font-primary);
+    border: none;
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 5px;
+}

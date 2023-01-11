@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --dsc-color-bg-primary: #C2C2C2;
+    --dsc-color-bg-secondary: #FFFFFF;
+    --dsc-color-bg-tertiary: #55BC04;
+
+    --dsc-color-font-primary: #FFF;
+    --dsc-color-font-secondary: #C2C2C2;
+    --dsc-color-font-tertiary: #6F6F6F;
+    --dsc-color-font-quaternary: #55BC04;
+
+    --dsc-color-border-primary: #55BC04;
+    --dsc-color-border-secondary: #C2C2C2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+input, input:focus {
+    outline: none;
+}
+
+html,
+body {
+    background-color: var(--dsc-color-bg-primary);
+}
+
+main {
+    padding: 0 20px;
+}
+
+/*-----------------------------------------------------------------*/
+/* generic styles */
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.dblock {
+    display: block;
+}
+
+/*-----------------------------------------------------------------*/
+/* card styles */
+
+.card {
+    background-color: var(--dsc-color-bg-secondary);
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    margin: 20px 0;
+}
